@@ -2,7 +2,7 @@ The code book for the data set created by the script run_analysis.R
 ===================================================================
  Data set (new1) produced as a result of running the script run_analysis.R is saved in the file My_dataset.txt.
 
-Variables (the names of columns):
+##Variables (the names of columns):
 --------------------------------
 1. sub.activity 		- combination of a subject (an integer from 1 to 30 representing the person) and
                                   a label for the activity (walking, walkingupstairs, walkingdownstairs,
@@ -73,7 +73,7 @@ Variables (the names of columns):
 66. fBodyBodyGyroJerkMag-mean()- mean of the magnitude of the body's gyroscopic movement in rel/ to jerk signals
 67. fBodyBodyGyroJerkMag-std() - st. dev. of the magnitude of the body's gyroscopic movement in rel. to jerk signals
 
-Notes:
+###Notes:
 ---------------------------------------------------------------------------------------------------------
 - All measurements are unitless (they have been normalized between -1 and 1).
 - Prefix "t" means a function of time.
