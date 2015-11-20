@@ -4,19 +4,19 @@
 
  Variables (the names of columns):
  --------------------------------
- 1. sub.activity 		- combination of a subject (an integer from 1 to 30 representing the person) and
+1. sub.activity 		- combination of a subject (an integer from 1 to 30 representing the person) and
                                   a label for the activity (walking, walkingupstairs, walkingdownstairs,
                                   sitting, standing and laying)
- 2. tBodyAcc-mean()-X		- mean of the body's acceleration along the x-axis 
+2. tBodyAcc-mean()-X		- mean of the body's acceleration along the x-axis 
                                   (prefix "t" means a function of time)
- 3. tBodyAcc-mean()-Y		- mean of the body's acceleration along the y-axis 
- 4. tBodyAcc-mean()-Z		- mean of the body's acceleration along the z-axis
- 5. tBodyAcc-std()-X		- st. deviation of the body's acceleration along the x-axis 
- 6. tBodyAcc-std()-Y 		- st. deviation of the body's acceleration along the y-axis
- 7. tBodyAcc-std()-Z		- st. deviation of the body's acceleration along the z-axis
- 8. tGravityAcc-mean()-X	- mean of the body's acceleration along the x-axis in relation to gravity
- 9. tGravityAcc-mean()-Y	- mean of the body's acceleration along the y-axis in relation to gravity
- 10. tGravityAcc-mean()-Z	- mean of the body's acceleration along the z-axis in relation to gravity
+3. tBodyAcc-mean()-Y		- mean of the body's acceleration along the y-axis 
+4. tBodyAcc-mean()-Z		- mean of the body's acceleration along the z-axis
+5. tBodyAcc-std()-X		- st. deviation of the body's acceleration along the x-axis 
+6. tBodyAcc-std()-Y 		- st. deviation of the body's acceleration along the y-axis
+7. tBodyAcc-std()-Z		- st. deviation of the body's acceleration along the z-axis
+8. tGravityAcc-mean()-X		- mean of the body's acceleration along the x-axis in relation to gravity
+9. tGravityAcc-mean()-Y		- mean of the body's acceleration along the y-axis in relation to gravity
+10. tGravityAcc-mean()-Z	- mean of the body's acceleration along the z-axis in relation to gravity
 11. tGravityAcc-std()-X		- st. deviation of the body's acceleration along the x-axis in relation to gravity
 12. tGravityAcc-std()-Y		- st. deviation of the body's acceleration along the y-axis in relation to gravity
 13. tGravityAcc-std()-Z		- st. deviation of the body's acceleration along the z-axis in relation to gravity
