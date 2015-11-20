@@ -1,9 +1,9 @@
-             The code book for the data set created by the script run_analysis.R
-             ===================================================================
+The code book for the data set created by the script run_analysis.R
+===================================================================
  Data set (new1) produced as a result of running the script run_analysis.R is saved in the file My_dataset.txt.
 
- Variables (the names of columns):
- --------------------------------
+Variables (the names of columns):
+--------------------------------
 1. sub.activity 		- combination of a subject (an integer from 1 to 30 representing the person) and
                                   a label for the activity (walking, walkingupstairs, walkingdownstairs,
                                   sitting, standing and laying)
@@ -75,6 +75,6 @@
 
 Notes:
 ---------------------------------------------------------------------------------------------------------
-All measurements are unitless (they have been normalized between -1 and 1).
-Prefix "t" means a function of time.
-Prefix "f" means a function of frequency.
+- All measurements are unitless (they have been normalized between -1 and 1).
+- Prefix "t" means a function of time.
+- Prefix "f" means a function of frequency.
