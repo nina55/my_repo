@@ -1,5 +1,5 @@
              The code book for the data set created by the script run_analysis.R
-             ----------------------------------------------------------------------
+             ===================================================================
  Data set (new1) produced as a result of running the script run_analysis.R is saved in the file My_dataset.txt.
 
  Variables (the names of columns):
@@ -8,7 +8,6 @@
                                   a label for the activity (walking, walkingupstairs, walkingdownstairs,
                                   sitting, standing and laying)
 2. tBodyAcc-mean()-X		- mean of the body's acceleration along the x-axis 
-                                  (prefix "t" means a function of time)
 3. tBodyAcc-mean()-Y		- mean of the body's acceleration along the y-axis 
 4. tBodyAcc-mean()-Z		- mean of the body's acceleration along the z-axis
 5. tBodyAcc-std()-X		- st. deviation of the body's acceleration along the x-axis 
@@ -49,7 +48,6 @@
 40. tBodyGyroJerkMag-mean()	- mean of the magnitude of the body's gyroscopic movement in relation to jerk signals
 41. tBodyGyroJerkMag-std()	- st. dev. of the magnitude of the body's gyroscopic movement in rel. to jerk signals
 42. fBodyAcc-mean()-X		- mean of the body's acceleration along the x-axis
-				  (prefix "f" means a function of frequency)
 43. fBodyAcc-mean()-Y		- mean of the body's acceleration along the y-axis
 44. fBodyAcc-mean()-Z		- mean of the body's acceleration along the z-axis
 45. fBodyAcc-std()-X		- standard deviation of the body's acceleration along the x-axis
@@ -72,9 +70,11 @@
 62. fBodyBodyAccJerkMag-mean()	- mean of the magnitude of the body's acceleration in relation to jerk signals
 63. fBodyBodyAccJerkMag-std()	- st. dev. of the magnitude of the body's acceleration in relation to jerk signals
 64. fBodyBodyGyroMag-mean()	- mean of the magnitude of the body's gyroscopic movement
-66. fBodyBodyGyroJerkMag-mean()- mean of the magnitude of the body's gyroscopic movement in relation to jerk signals
+66. fBodyBodyGyroJerkMag-mean()- mean of the magnitude of the body's gyroscopic movement in rel/ to jerk signals
 67. fBodyBodyGyroJerkMag-std() - st. dev. of the magnitude of the body's gyroscopic movement in rel. to jerk signals
 
+Notes:
 ---------------------------------------------------------------------------------------------------------
 All measurements are unitless (they have been normalized between -1 and 1).
-
+Prefix "t" means a function of time.
+Prefix "f" means a function of frequency.
